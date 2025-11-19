@@ -83,7 +83,7 @@ def customize_termux():
     show_banner("Banner Setup")
 
     banner_text = input(Y + "Enter your Termux banner text: " + RESET)
-    prompt_text = input(Y + "Enter your Fish shell prompt (e.g., ALI@DHT-HACKERS): " + RESET)
+    prompt_text = input(Y + "Enter your Fish shell prompt (e.g., LazyCipher): " + RESET)
 
     banner_script = f"""
 import os, pyfiglet
@@ -140,7 +140,7 @@ def main():
     welcome_screen()  
 
     while True:
-        show_banner("DHT-HACKERS")
+        show_banner("LazyCipher")
         print(B + "[1] Install Necessary Packages" + RESET)
         print(M + "[2] Customize Termux (Banner & Fish Shell)" + RESET)
         print(R + "[3] Reset Customization" + RESET)
